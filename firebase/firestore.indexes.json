@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "historicalsessions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "exitTime",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
